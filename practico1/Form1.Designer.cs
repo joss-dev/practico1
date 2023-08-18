@@ -28,24 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            BGuardar = new Button();
+            BEliminar = new Button();
             SuspendLayout();
             // 
-            // button1
+            // BGuardar
             // 
-            button1.Location = new Point(185, 103);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            BGuardar.Location = new Point(60, 82);
+            BGuardar.Name = "BGuardar";
+            BGuardar.Size = new Size(75, 23);
+            BGuardar.TabIndex = 0;
+            BGuardar.Text = "Guardar";
+            BGuardar.UseVisualStyleBackColor = true;
+            BGuardar.Click += BGuardar_Click;
+            // 
+            // BEliminar
+            // 
+            BEliminar.Location = new Point(175, 82);
+            BEliminar.Name = "BEliminar";
+            BEliminar.Size = new Size(75, 23);
+            BEliminar.TabIndex = 1;
+            BEliminar.Text = "Eliminar";
+            BEliminar.UseVisualStyleBackColor = true;
+            BEliminar.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(484, 261);
+            Controls.Add(BEliminar);
+            Controls.Add(BGuardar);
             Name = "Form1";
             Text = "Formulario1";
             Load += Form1_Load;
@@ -54,6 +67,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button BGuardar;
+        private Button BEliminar;
     }
 }
