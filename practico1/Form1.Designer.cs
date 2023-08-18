@@ -111,6 +111,7 @@
             Controls.Add(BEliminar);
             Controls.Add(BGuardar);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Formulario1";
             Load += Form1_Load;
             ResumeLayout(false);
