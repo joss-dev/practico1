@@ -35,6 +35,7 @@
             TNombre = new TextBox();
             TApellido = new TextBox();
             TApellidoYnombre = new TextBox();
+            BSalir = new Button();
             SuspendLayout();
             // 
             // BGuardar
@@ -98,11 +99,22 @@
             TApellidoYnombre.Size = new Size(154, 118);
             TApellidoYnombre.TabIndex = 6;
             // 
+            // BSalir
+            // 
+            BSalir.Location = new Point(391, 222);
+            BSalir.Name = "BSalir";
+            BSalir.Size = new Size(75, 23);
+            BSalir.TabIndex = 7;
+            BSalir.Text = "Salir";
+            BSalir.UseVisualStyleBackColor = true;
+            BSalir.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(484, 261);
+            Controls.Add(BSalir);
             Controls.Add(TApellidoYnombre);
             Controls.Add(TApellido);
             Controls.Add(TNombre);
@@ -127,5 +139,6 @@
         private TextBox TNombre;
         private TextBox TApellido;
         private TextBox TApellidoYnombre;
+        private Button BSalir;
     }
 }

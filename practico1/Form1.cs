@@ -12,11 +12,6 @@ namespace practico1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BGuardar_Click(object sender, EventArgs e)
         {
             TApellidoYnombre.Text = TApellido.Text + " " + TNombre.Text;
@@ -29,6 +24,11 @@ namespace practico1
         private void LApellido_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
