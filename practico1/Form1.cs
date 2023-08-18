@@ -19,6 +19,15 @@ namespace practico1
 
         private void BGuardar_Click(object sender, EventArgs e)
         {
+            TApellidoYnombre.Text = TApellido.Text + " " + TNombre.Text;
+        }
+        private void BEliminar_Click(object sender, EventArgs e)
+        {
+            TApellidoYnombre.Clear();
+        }
+
+        private void LApellido_Click(object sender, EventArgs e)
+        {
 
         }
     }
