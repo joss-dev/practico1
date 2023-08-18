@@ -40,22 +40,26 @@
             // 
             // BGuardar
             // 
+            BGuardar.BackColor = Color.Lime;
+            BGuardar.FlatStyle = FlatStyle.Popup;
             BGuardar.Location = new Point(51, 164);
             BGuardar.Name = "BGuardar";
             BGuardar.Size = new Size(75, 23);
             BGuardar.TabIndex = 0;
             BGuardar.Text = "Guardar";
-            BGuardar.UseVisualStyleBackColor = true;
+            BGuardar.UseVisualStyleBackColor = false;
             BGuardar.Click += BGuardar_Click;
             // 
             // BEliminar
             // 
+            BEliminar.BackColor = Color.Red;
+            BEliminar.FlatStyle = FlatStyle.Popup;
             BEliminar.Location = new Point(154, 164);
             BEliminar.Name = "BEliminar";
             BEliminar.Size = new Size(75, 23);
             BEliminar.TabIndex = 1;
             BEliminar.Text = "Eliminar";
-            BEliminar.UseVisualStyleBackColor = true;
+            BEliminar.UseVisualStyleBackColor = false;
             BEliminar.Click += BEliminar_Click;
             // 
             // LNombre
@@ -101,12 +105,15 @@
             // 
             // BSalir
             // 
+            BSalir.BackColor = Color.IndianRed;
+            BSalir.FlatAppearance.BorderColor = Color.Red;
+            BSalir.FlatStyle = FlatStyle.Popup;
             BSalir.Location = new Point(391, 222);
             BSalir.Name = "BSalir";
             BSalir.Size = new Size(75, 23);
             BSalir.TabIndex = 7;
             BSalir.Text = "Salir";
-            BSalir.UseVisualStyleBackColor = true;
+            BSalir.UseVisualStyleBackColor = false;
             BSalir.Click += button1_Click;
             // 
             // Form1
