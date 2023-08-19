@@ -31,6 +31,14 @@ namespace practico1
             Application.Exit();
         }
 
+        private void salir(object sender, KeyPressEventArgs e)
+        {
+            Application.Exit();
+        }
 
+        private void salir(object sender, KeyEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
